@@ -67,5 +67,5 @@ def main():
     containers = pick_container()
     print(selection, containers)
 
-
-main()
+if "__name__" == "__main__":
+    main()
